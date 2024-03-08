@@ -16,13 +16,10 @@ In this repository, you will find:
 
 ## <a id='vrps'>VRP Problem Instances </a>
 ### <a id='cvrp'>CVRP </a>
-The Uchoa dataset [Uchoa17] is one of the most widely studied CVRP benchmark data sets. This data set covers different instance features, such as depot positioning, customer positioning, demand distribution etc, allowing a comprehensive assessment of algorithm performance. 
 
-The problem instances provided in the competition are the Uchoa CVRP instances with customers ranging from 100 to 400, covering different instance types. The competition will evaluate the submitted solution results using a subset of the provided instances (unknown to the participants before the results are presented).
+The X dataset [Uchoa17] is one of the most widely studied CVRP benchmark data sets. This data set covers different instance features, such as depot positioning, customer positioning, demand distribution etc, allowing a comprehensive assessment of algorithm performance. 
 
-
-<details>
-<summary><strong>More about instance file format</strong></summary>
+The problem instances provided in the competition are the instances in the X dataset with customers ranging from 100 to 400, covering different instance types. The competition will evaluate the submitted solution results using a subset of the provided instances (unknown to the participants before the results are presented).
 
 The CVRP problem data can be found under the `Instances/CVRP/vrp/` directory. The JSON files corresponding to the problem instances can be found under the `Instances/CVRP/json/` directory. 
 
@@ -30,38 +27,22 @@ Each `.vrp` file and json file is named with respect to its corresponding instan
 - `Instances/CVRP/vrp/X-n101-k25.vrp` and 
 - `Instances/CVRP/json/X-n101-k25.json`. 
 
-</details>
-
-<details>
-<summary><strong>More about instance description</strong></summary>
-
-See the paper [New benchmark instances for the capacitated vehicle routing problem](http://vrp.galgos.inf.puc-rio.br/index.php/en/new-instances) for the detailed instance description.
-
-</details>
-
-
+Note: The X data set are listed under Uchoa et al. (2014) in CVRPLIB. See the paper [New benchmark instances for the capacitated vehicle routing problem](http://vrp.galgos.inf.puc-rio.br/index.php/en/new-instances) for the detailed instance description.
 
 ### <a id='cvrptw'>CVRPTW </a>
 Solomon [Sol87] dataset and Homberger and Gehring [HG99] data set are widely studied CVRPTW benchmark data sets. Both data sets consist of [six types of instances](http://web.cba.neu.edu/~msolomon/problems.htm), i.e., C1, C2, R1, R2, RC1, RC2, which differ with respect to the customers’ geographical locations, vehicle capacity, density and tightness of the time windows. 
-
-<span style="color:red">
 
 The problem instances provided in the competition are taken from two sources, i.e., 
 - Solomon [Sol87] dataset of 100 customer problems,
 - Homberger and Gehring [HG99] data sets of 200 customer problems and 400 customer problems.
 
-</span>
+The provided problem instances provided are randomly selected from these three sized problem instances, covering different instance types. The competition will conduct the evaluation of the submitted solution results using a subset of the provided instances (unknown to the participants before the results are presented). 
 
-The provided problem instances provided are randomly selected from these <span style="color:red">three</span> sized problem instances, covering different instance types. The competition will conduct the evaluation of the submitted solution results using a subset of the provided instances (unknown to the participants before the results are presented). 
-
-The problem instances provided in the competition are available to download on <span style="color:red">the folder [Instances](https://github.com/ML4VRP2023/ML4VRP2023/tree/main/Instances)</span> of this repo. All the VRPTW instances can also be found in [CVRPLIB](http://vrp.galgos.inf.puc-rio.br/index.php/en/). 
+The problem instances provided in the competition are available to download on the folder [Instances](https://github.com/ML4VRP2023/ML4VRP2023/tree/main/Instances) of this repo. All the VRPTW instances can also be found in [CVRPLIB](http://vrp.galgos.inf.puc-rio.br/index.php/en/). 
 
 In addition to the benchmark VRPTW instances, we provide an example problem instance `toy`, locating at 
 - `Instances/CVRPTW/txt/Customer6/toy.txt` and 
 - `Instances/CVRPTW/json/Customer6/toy.json`. 
-
-<details>
-<summary><strong>More about instance file format</strong></summary>
 
 The text files corresponding to the problem instances can be found under the `Instances/CVRPTW/txt/` directory. The JSON files corresponding to the problem instances can be found under the `Instances/CVRPTW/json/` directory. 
 
@@ -69,15 +50,10 @@ Each txt file and json file is named with respect to its corresponding instance 
 - `Instances/CVRPTW/txt/C102.txt` and 
 - `Instances/CVRPTW/json/C102.json`. 
 
-</details>
 
-<details>
-<summary><strong>More about instance description</strong></summary>
+Note: See [Solomon's website](http://web.cba.neu.edu/~msolomon/problems.htm) for the detailed instance description.
 
-See [Solomon's website](http://web.cba.neu.edu/~msolomon/problems.htm) for the detailed instance description.
 
-</details>
- 
 
 <!--Below is a description of the format of the text file that defines each problem instance (assuming 100 customers).
 
