@@ -16,11 +16,15 @@ In this repository, you will find:
 
 ## <a id='vrps'>VRP Problem Instances </a>
 ### <a id='cvrp'>CVRP </a>
-<span style="color:red">to add</span>
+The Uchoa dataset [Uchoa17] is one of the most widely studied CVRP benchmark data sets. This data set covers different instance features, such as depot positioning, customer positioning, demand distribution etc, allowing a comprehensive assessment of algorithm performance. 
+
+The problem instances provided in the competition are the Uchoa CVRP instances with customers ranging from 100 to 400, covering different instance types. The competition will evaluate the submitted solution results using a subset of the provided instances (unknown to the participants before the results are presented).
+
+
 <details>
 <summary><strong>More about instance file format</strong></summary>
 
-The CRP problem data can be found under the `Instances/CVRP/vrp/` directory. The JSON files corresponding to the problem instances can be found under the `Instances/CVRP/json/` directory. 
+The CVRP problem data can be found under the `Instances/CVRP/vrp/` directory. The JSON files corresponding to the problem instances can be found under the `Instances/CVRP/json/` directory. 
 
 Each `.vrp` file and json file is named with respect to its corresponding instance name, e.g.: the files corresponding to problem instance **X-n101-k25** is located at
 - `Instances/CVRP/vrp/X-n101-k25.vrp` and 
@@ -31,7 +35,7 @@ Each `.vrp` file and json file is named with respect to its corresponding instan
 <details>
 <summary><strong>More about instance description</strong></summary>
 
-<span style="color:red">to add - See [Solomon's website](http://web.cba.neu.edu/~msolomon/problems.htm) for the detailed instance description.</span>
+See the paper [New benchmark instances for the capacitated vehicle routing problem](http://vrp.galgos.inf.puc-rio.br/index.php/en/new-instances) for the detailed instance description.
 
 </details>
 
@@ -226,3 +230,5 @@ Please contact <strong> Weiyao</strong> in case of any problems or if you requir
 [HG99] J. Homberger and H. Gehring, "Two evolutionary metaheuristics for the vehicle routing problem with time windows," INFOR: Information Systems and Operational Research, 37(3):297–318, 1999. [PDF](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=a34e12bf0a30deb56233c26d82a0979987bb6ce4)
 
 [Sol87] M. M. Solomon, "Algorithms for the vehicle routing and scheduling problems with time window constraints," Operations Research, 35(2):254–265, 1987. [PDF](https://www.jstor.org/stable/pdf/170697.pdf?casa_token=ltF2XRa2-nAAAAAA:OV4ClhhdAM_ds_p3-XIzKaz3hDYb9Jy2yHa7-jniGyYLzy2Rg2JC1b-ope2_gtsoQ1eOfFcgeTvtFmGZdPWDACEySwlfASLdRl-mhJRQE4f_6Kc5jJRnYg)
+
+[Uchoa17] Uchoa, E., Pecin, D., Pessoa, A., Poggi, M., Vidal, T., & Subramanian, A. (2017). New benchmark instances for the capacitated vehicle routing problem. European Journal of Operational Research, 257(3), 845-858.
