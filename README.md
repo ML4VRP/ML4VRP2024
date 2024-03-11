@@ -41,8 +41,8 @@ The provided problem instances provided are randomly selected from these three s
 The problem instances provided in the competition are available to download on the folder [Instances](https://github.com/ML4VRP2023/ML4VRP2023/tree/main/Instances) of this repo. All the VRPTW instances can also be found in [CVRPLIB](http://vrp.galgos.inf.puc-rio.br/index.php/en/). 
 
 In addition to the benchmark VRPTW instances, we provide an example problem instance `toy`, locating at 
-- `Instances/CVRPTW/txt/Customer6/toy.txt` and 
-- `Instances/CVRPTW/json/Customer6/toy.json`. 
+- `Instances/CVRPTW/txt/toy.txt` and 
+- `Instances/CVRPTW/json/toy.json`. 
 
 The text files corresponding to the problem instances can be found under the `Instances/CVRPTW/txt/` directory. The JSON files corresponding to the problem instances can be found under the `Instances/CVRPTW/json/` directory. 
 
@@ -79,7 +79,7 @@ CUST NO.  XCOORD.   YCOORD.    DEMAND   READY TIME  DUE DATE   SERVICE TIME
 ## <a id='api'>VRP Solution Evaluator </a>
 <!--extended from the version used in ML4VRP2023-->
 
-The solution evaluator has been extended from the version utilised in ML4VRP2023, with slight modifications to the syntax. Please keep reading &#x1F60A;
+The solution evaluator has been extended from the version utilised in ML4VRP2023, with slight modifications to the syntax. <b>Please follow the solution format specified on the [competition website](https://sites.google.com/view/ml4vrp#h.8tn33nmddfdh).</b>
 
 The Python script `evaluator.py` is the solution evaluation program to use. The solution evaluator takes a solution and the corresponding problem instance to
 - check feasibility of the solution,
@@ -207,4 +207,4 @@ Please contact <strong> Weiyao</strong> in case of any problems or if you requir
 
 [Sol87] M. M. Solomon, "Algorithms for the vehicle routing and scheduling problems with time window constraints," Operations Research, 35(2):254–265, 1987. [PDF](https://www.jstor.org/stable/pdf/170697.pdf?casa_token=ltF2XRa2-nAAAAAA:OV4ClhhdAM_ds_p3-XIzKaz3hDYb9Jy2yHa7-jniGyYLzy2Rg2JC1b-ope2_gtsoQ1eOfFcgeTvtFmGZdPWDACEySwlfASLdRl-mhJRQE4f_6Kc5jJRnYg)
 
-[Uchoa17] Uchoa, E., Pecin, D., Pessoa, A., Poggi, M., Vidal, T., & Subramanian, A. (2017). New benchmark instances for the capacitated vehicle routing problem. European Journal of Operational Research, 257(3), 845-858.
+[Uchoa17] Uchoa, E., Pecin, D., Pessoa, A., Poggi, M., Vidal, T., & Subramanian, A. (2017). New benchmark instances for the capacitated vehicle routing problem. European Journal of Operational Research, 257(3), 845-858. [PDF](http://vrp.galgos.inf.puc-rio.br/index.php/en/new-instances)
